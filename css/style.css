@@ -27,7 +27,7 @@ h1 {
   margin: 20px;
 }
 
-div {
+.preview {
   background-color: #dadada;
   float: left;
   font-size: 2em;
@@ -37,9 +37,10 @@ div {
   margin: 1% 0;
 }
 
+
 /* Tablet content = 2 columns */
 @media screen and (min-width: 575px){
-  div {
+  .preview {
     margin: 1%;
     width: 48%;
     height: 200px;
@@ -48,7 +49,7 @@ div {
 
 /* Laptop content = 4 columns */
 @media screen and (min-width: 991px) {
-  div {
+  .preview {
     margin: 1%;
     width: 23%;
     height: 200px;
